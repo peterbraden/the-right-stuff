@@ -1,0 +1,15 @@
+{
+  "name": "your-app",
+  "version": "0.0.0",
+  "description": "the-right-stuff ===============",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "repository": {
+    "type": "git",
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
