@@ -1,15 +1,12 @@
 {
-  "name": "your-app",
-  "version": "0.0.0",
-  "description": "the-right-stuff ===============",
-  "main": "app.js",
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "node test/run.js"
+    "start": "node app"
   },
-  "repository": {
-    "type": "git",
-  },
-  "author": "",
-  "license": "BSD",
-  "readmeFilename": "README.md"
+  "dependencies": {
+    "express": "3.0.3",
+    "jade": "*"
+  }
 }
