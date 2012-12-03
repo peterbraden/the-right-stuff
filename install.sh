@@ -1,5 +1,5 @@
 rm -rf .git
-npm install.
+npm install .
 
 echo "#YOURAPP\n" > README.md
 rm install.sh
