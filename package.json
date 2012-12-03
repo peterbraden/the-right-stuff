@@ -1,12 +1,21 @@
 {
-  "name": "application-name",
+  "name": "YOURAPP",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.0.3",
-    "ejs" : "*"
-  }
+    "express": "3.0.3"
+    , "ejs": "*"
+    , "express-partials": "*"
+    , "ratchetio" : "*"
+    , "request" : "*"
+    , "vows" : "*"
+    , "forever" : "*"
+    , "passport" : "*"
+    , "passport-github" : "*"
+    , "underscore" : "*"
+    , "nano" : "*"
+  },
 }
