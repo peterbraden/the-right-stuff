@@ -7,4 +7,4 @@ The right defaults for an awesome node-js web app.
 # Create a Web App
 
 
-    git clone git@github.com:peterbraden/the-right-stuff.git && ./install.sh
+    git clone git@github.com:peterbraden/the-right-stuff.git YOURAPP && ./YOURAPP/install.sh
