@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= appName => | <%= title %></title>
+    <link rel='stylesheet' href='/css/bootstrap.css' />
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+
+  <body>
+    <div class='navbar navbar-inverse navbar-fixed-top'>
+      <div class='navbar-inner'>
+        <a href = "/" class="brand"><%= appName =></a>
+        <div class='container'>
+          <ul class='nav'>
+            <li><a href = "foo">Foo</a></li>
+            <li><a href = "/bar">Bar</a></li>
+
+          <% if (user){ %>
+            <li><a href = "/dashboard"><%= user.displayName %></a></li>
+          <% } else { %>
+            <li><a href = "/auth/github">Login with GitHub</a></li>
+          <% } %>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <%- body %>
+
+
+    <footer class='footer'>
+      <div class='container'>
+        <div class='row-fluid'>
+          <div class='span4'>
+            <h3>Site Map</h3>
+          </div>
+          <div class='span4'>
+            <h3><%= appName =></h3>
+            <a href = "/about">About</a>
+            <a href = "https://twitter.com/<%= appName =>">Follow @<%= appName => on twitter</a>
+          </div>
+          <div class='span4'>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+    var _ratchetParams = {"server.environment": "production"};
+    var _ratchet=["c9b38005e40d474b9b331630af6c581a", _ratchetParams];
+    (function(w,d){w.onerror=function(){_ratchet.push(arguments);};var i=function(){var s=d.createElement("script");var 
+    f=d.getElementsByTagName("script")[0];s.src="//d2tf6sbdgil6xr.cloudfront.net/js/1/ratchet.min.js";s.async=!0;
+    f.parentNode.insertBefore(s,f);};if(w.addEventListener){w.addEventListener("load",i,!1);}else{w.attachEvent("onload",i);}})(window,document);
+    </script>
+
+  </body>
+</html>
