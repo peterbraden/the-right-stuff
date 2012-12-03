@@ -5,7 +5,7 @@ var express = require('express')
   , ratchet = require('ratchetio')
   , passport = require('passport')
   , auth = require('./auth')
-  , User = require('./user').User
+  , User = require('./models/user').User
   , config = require('./config')
 
 var app = express();

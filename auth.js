@@ -1,6 +1,6 @@
 var passport = require('passport')
   , GitHubStrategy = require('passport-github').Strategy
-  , User = require('./user').User
+  , User = require('./models/user').User
   , config = require('./config')
 
 passport.use(new GitHubStrategy({
