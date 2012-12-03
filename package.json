@@ -17,5 +17,5 @@
     , "passport-github" : "*"
     , "underscore" : "*"
     , "nano" : "*"
-  },
+  }
 }
