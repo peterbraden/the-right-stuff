@@ -6,9 +6,9 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.0.3"
-    , "ejs": "*"
-    , "express-partials": "*"
+    "express": "3.0.0rc2"
+    , "ejs": "~0.8.3"
+    , "express-partials": "0.0.6"
     , "ratchetio" : "*"
     , "request" : "*"
     , "vows" : "*"

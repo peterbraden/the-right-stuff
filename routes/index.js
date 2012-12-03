@@ -1,10 +1,14 @@
 var configs = require('../config')
 
 
-/*
- * GET home page.
- */
+module.exports.route = function(app){
 
-exports.index = function(req, res){
-  res.render('index', { appName: configs.appName, title: 'Hello, World' });
-};
+  /*
+  * GET home page.
+  */
+  app.get('/', function(req, res){
+    return res.render('index', { appName: configs.appName, title: 'Hello, World', user:req.user });
+  });
+
+
+}
