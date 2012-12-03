@@ -8,3 +8,4 @@ The right defaults for an awesome node-js web app.
 
 
     git clone git@github.com:peterbraden/the-right-stuff.git && rm -rf .git
+    npm install.
